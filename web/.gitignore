@@ -1,0 +1,6 @@
+src/**/*.html
+src/**/*.swp
+src/compiled/
+src/**/compiled/
+vars
+out/
