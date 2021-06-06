@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/* Root Elements */
 html {
     font-size: 26px;
     line-height: 1.4rem;
@@ -15,13 +16,13 @@ body {
     padding-bottom: 4rem;
 }
 
-p {
-}
+/* Paragraphs */
+p {}
 p, blockquote {
     margin-bottom: 1rem;
 }
 
-
+/* Headings */
 h1, h2, h3, h4, h5, h6 {
     font-size: 1.1rem;
     font-weight: bold;
@@ -32,8 +33,10 @@ h1 {
     font-size: 1.2rem;
 }
 
+/* Site Header */
 header {
-    margin-bottom: 1.2rem;
+    margin-bottom: 1.4rem;
+    text-align: center;
 }
 
 header hr {
@@ -45,6 +48,11 @@ header hr {
     background-color: #ccc;
 }
 
+header h1 {
+    font-size: 1.6rem;
+}
+
+/* Links */
 a {
     text-decoration: none;
     color: black;
@@ -52,33 +60,19 @@ a {
     transition-duration: 0.2s;
 }
 a:hover {
-    background-color: #f4e8fc;
+    background-color: #f1ecee;
 }
-a::after {
+a:not(.no-dot)::after {
     content: "\FEFF°";
     position: relative;
     top: -0.10em;
     margin-left: 0.10em;
     /* font-size: 96%; */
     font-weight: bold;
-    color: #a04cd8;
+    color: #83577d;
 }
 
-.site-title {
-    font-weight: bold;
-    font-size: 1.1rem;
-}
-
-.platform-prose {
-    max-width: 58%;
-    margin: auto;
-    line-height: 1.1rem;
-}
-.platform-prose p {
-    margin-bottom: 0.6rem;
-    margin-top: 0.6rem;
-}
-
+/* Blockquotes */
 blockquote {
     padding-left: 0.4rem;
     padding-right: 0.4rem;
@@ -89,10 +83,12 @@ blockquote footer {
     font-style: italic;
 }
 
+/* Lists */
 ul li {
     margin-bottom: 0.4rem;
 }
 
+/* Utilities */
 .right {
     text-align: right;
 }
@@ -103,7 +99,7 @@ ul li {
     font-size: 0.9rem;
 }
 
-
+/* Aesthetic Elements */
 hr.asterism {
     border: none;
     overflow: hidden;
@@ -120,7 +116,20 @@ hr.asterism::before {
     padding: 0;
 }
 
+/* Images */
+img {
+    max-width: 740px;
+}
 
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 96%;
+}
+
+
+/* Media Queries */
 @media (max-width: 760px) {
     html {
         font-size: 20px;

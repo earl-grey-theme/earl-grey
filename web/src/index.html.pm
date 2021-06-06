@@ -3,12 +3,12 @@
 ◊(define-meta title #f)
 ◊(define-meta hide-title #t)
 
-A gentle color scheme for code.
-
-◊img[
-  #:style "max-width: 700px"
-  #:src "/static/images/earl-grey-demo-1.png"
-]{}
+◊section[#:id "header-image"]{
+  ◊img[
+    #:class "center"
+    #:src "/static/images/earl-grey-demo-1.png"
+  ]{}
+}
 
 
 Foreground: ◊|(eg-color 'fg)|

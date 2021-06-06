@@ -10,10 +10,10 @@
     </head>
     <body>
         <header>
-            <span class="site-title">
-                <a href="/">◊(site-title)</a>
-            </span>
-            <hr />
+            <h1><a href="/" class="no-dot">◊(site-title)</a></h1>
+            <p class="subtitle">
+                A gentle color scheme, for code.
+            </p>
         </header>
 
         ◊(define hide-title (select-from-metas 'hide-title metas))
