@@ -5,7 +5,6 @@
 
 ◊section[#:id "header-image"]{
   ◊img[
-    #:class "center"
     #:src "/static/images/earl-grey-demo-1.png"
   ]{}
 }

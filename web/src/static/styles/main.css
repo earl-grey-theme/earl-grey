@@ -118,14 +118,11 @@ hr.asterism::before {
 
 /* Images */
 img {
-    max-width: 740px;
-}
-
-img.center {
+  max-width: 740px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 96%;
+  width: 100%;
 }
 
 
