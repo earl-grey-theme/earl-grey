@@ -14,19 +14,26 @@
 
 
 ;; -------- Setup
-
 (module setup racket/base
     (provide (all-defined-out))
     (define poly-targets '(html)))
 
 
 ;; -------- Environment
-
 (define (env-lookup name)
   (getenv name))
 
 (define (site-title)
   (or (env-lookup "SITE_TITLE") "A Cool Site"))
+
+
+;; -------- Colors
+(define eg-colors
+  (call-with-input-file "../../colors.se"
+    read))
+
+(define (eg-color c)
+  (dict-ref eg-colors c))
 
 
 ;; -------- Custom Tags
@@ -57,8 +64,8 @@
 (define (asterism)
   '(hr [[class "asterism"]]))
 
-;; -------- Utilities
 
+;; -------- Utilities
 (define (current-timestamp-utc-iso-8601)
   (let* ([seconds (current-seconds)]
          [date-utc (seconds->date seconds #f)])
