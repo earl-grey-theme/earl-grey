@@ -8,6 +8,7 @@ A gentle color scheme for code.
 ## Design Principles
 
 - Always favour easy readibility
+- Don't overload the reader with color
 - Use a pale background color (White)
 - Use the default text color (Black) as much as possble
 - Use Purple for syntax elements (if / when)
