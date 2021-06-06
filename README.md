@@ -5,7 +5,7 @@ A gentle color scheme for code.
 ![screenshot](./reference/earl-grey-4.1.0.png)
 
 
-## Design 
+## Design Principles
 
 - Always favour easy readibility
 - Use a pale background color (White)
