@@ -72,7 +72,9 @@
          [style ,(string-append
                   "color: "(eg-color foreground)
                   "; background-color: " (eg-color code))]]
-        ,(string-append name ": " (eg-color code))
+        (span [] ,name ": ")
+        (br)
+        (span [] ,(eg-color code))
         ))
 
 
