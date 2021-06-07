@@ -9,9 +9,12 @@
     #:alt "a demonstration of the Earl Grey color scheme, with javascript code"
   ]{}
 
-  Earl Grey is a light, comfortable color scheme for text editors,
-  terminals, and wherever you work with text and code. It was designed to
-  be accessible and easy on the eyes.
+  Earl Grey is a light, comfortable color scheme for text editors, terminals,
+  and wherever you work with text and code. It was designed to be accessible and
+  easy on the eyes.
+
+  You can read more about the ◊hyperlink["/design.html"]{design principles}
+  behind Earl Grey.
 }
 
 ◊section{
