@@ -18,7 +18,7 @@
   (◊color-lozenge['bg2]) may be used for user interface panels, or when
   otherwise appropriate.
 
-  By default, all text on a page should be black (◊color-lozenge['fg]{}).  Any
+  The default text color should be a dark grey (◊color-lozenge['fg]{}).  Any
   other colors should be considered additive, on top of this basic color
   palette.
 }
@@ -40,12 +40,6 @@
 
 ◊section{
   ◊h2{Use blue for variables}
-
-}
-
-
-◊section{
-  ◊h2{The most common colors should be white, black, purple, and blue}
 
 }
 
