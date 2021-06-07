@@ -21,7 +21,6 @@
 
     ◊color-block[
       "Foreground" 'fg
-      #:foreground 'bg
     ]{}
 
     ◊color-block[
@@ -36,32 +35,26 @@
 
     ◊color-block[
       "Purple" 'purple
-      #:foreground 'bg
     ]{}
 
     ◊color-block[
       "Blue" 'blue
-      #:foreground 'bg
     ]{}
 
     ◊color-block[
       "Teal" 'teal
-      #:foreground 'bg
     ]{}
 
     ◊color-block[
       "Orange" 'orange
-      #:foreground 'bg
     ]{}
 
     ◊color-block[
       "Green" 'green
-      #:foreground 'bg
     ]{}
 
     ◊color-block[
       "Red" 'red
-      #:foreground 'bg
     ]{}
 
   }

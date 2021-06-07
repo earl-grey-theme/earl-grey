@@ -51,7 +51,7 @@
 (define (color-block
          name
          code
-         #:foreground [foreground 'fg])
+         #:foreground [foreground 'bg])
   `(div [[class "color-block" ]
          [style ,(string-append
                   "color: "(eg-color foreground)
