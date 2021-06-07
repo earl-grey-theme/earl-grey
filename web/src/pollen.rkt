@@ -64,6 +64,17 @@
 (define (asterism)
   '(hr [[class "asterism"]]))
 
+(define (color-block name code
+                     #:foreground [foreground 'fg]
+                     ;; #:background [background 'bg]
+                     )
+  `(div [[class "color-block" ]
+         [style ,(string-append
+                  "color: "(eg-color foreground)
+                  "; background-color: " (eg-color code))]]
+        ,(string-append name ": " (eg-color code))
+        ))
+
 
 ;; -------- Utilities
 (define (current-timestamp-utc-iso-8601)
