@@ -3,7 +3,7 @@
  (bg     . "#FCFBF9" )
  (bg2    . "#F7F3EE" )
 
- (purple . "#83577d")
+ (purple . "#83577D")
  (blue   . "#556995")
  (teal   . "#477A7B")
  (orange . "#886A44")
