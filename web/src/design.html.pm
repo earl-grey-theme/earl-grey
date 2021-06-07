@@ -7,7 +7,6 @@
 
   Our first and foremost responsibility is to the reader. Ease of reading
   is more important than any other factor.
-
 }
 
 
@@ -18,16 +17,10 @@
   (◊color-lozenge['bg]). An alternative, darker background color
   (◊color-lozenge['bg2]) may be used for user interface panels, or when
   otherwise appropriate.
-}
 
-
-◊section{
-  ◊h2{Use the default text color as much as possible}
-
-  By default, all text on a page should be black (◊color-lozenge['fg]{}).
-  Any other colors are additive, on top of this basic color palette.
-
-
+  By default, all text on a page should be black (◊color-lozenge['fg]{}).  Any
+  other colors should be considered additive, on top of this basic color
+  palette.
 }
 
 
