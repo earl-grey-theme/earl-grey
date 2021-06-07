@@ -76,6 +76,18 @@
 (define (asterism)
   '(hr [[class "asterism"]]))
 
+(define (color-lozenge code)
+  (define foreground (if (member code '(bg bg2))
+                         (eg-color 'fg)
+                         (eg-color 'bg)))
+  `(span [[class "color-lozenge"]
+          [style ,(string-append
+                   "background-color: "
+                   (eg-color code)
+                   "; color: " foreground
+                   "; padding: 1px 4px"
+                   "; border-radius: 4px")]]
+         ,(eg-color code)))
 
 ;; -------- Utilities
 (define (current-timestamp-utc-iso-8601)

@@ -147,6 +147,14 @@ img {
 
 }
 
+/* Colored Elements */
+.eg-purple {
+    color: #83577D;
+}
+.eg-blue {
+    color: #556995;
+}
+
 /* Media Queries */
 @media (max-width: 760px) {
     html {
