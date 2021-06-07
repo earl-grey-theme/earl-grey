@@ -59,12 +59,13 @@ header h1 {
 /* Links */
 a {
     text-decoration: none;
-    color: black;
+    color: #605A52;
     transition-property: background;
     transition-duration: 0.2s;
 }
 a:hover {
-    background-color: #f1ecee;
+    background-color: #edeef0;
+    border: 4px solid #edeef0;
 }
 a:not(.no-dot)::after {
     content: "\FEFF°";
@@ -73,7 +74,7 @@ a:not(.no-dot)::after {
     margin-left: 0.10em;
     /* font-size: 96%; */
     font-weight: bold;
-    color: #83577d;
+    color: #556995;
 }
 
 /* Blockquotes */
