@@ -48,6 +48,18 @@
            #:string-proc (compose1 smart-quotes smart-dashes)
            #:exclude-tags '(style script))))
 
+(define (color-block
+         name
+         code
+         #:foreground [foreground 'fg])
+  `(div [[class "color-block" ]
+         [style ,(string-append
+                  "color: "(eg-color foreground)
+                  "; background-color: " (eg-color code))]]
+        (span [] ,name ": ")
+        (br)
+        (span [] ,(eg-color code))))
+
 (define (list-page-links pages)
   (define (make-li post)
     `(li (a [[href ,(symbol->string post)]]
@@ -63,19 +75,6 @@
 
 (define (asterism)
   '(hr [[class "asterism"]]))
-
-(define (color-block name code
-                     #:foreground [foreground 'fg]
-                     ;; #:background [background 'bg]
-                     )
-  `(div [[class "color-block" ]
-         [style ,(string-append
-                  "color: "(eg-color foreground)
-                  "; background-color: " (eg-color code))]]
-        (span [] ,name ": ")
-        (br)
-        (span [] ,(eg-color code))
-        ))
 
 
 ;; -------- Utilities
