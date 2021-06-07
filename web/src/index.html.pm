@@ -15,7 +15,7 @@
 }
 
 ◊section{
-  ◊h2[#:id "colors"]{The Colors}
+  ◊h2[#:id "colors"]{The Color Palette}
 
   ◊div[#:class "color-list"]{
 
@@ -56,7 +56,39 @@
     ◊color-block[
       "Red" 'red
     ]{}
-
   }
+}
+
+
+◊section{
+  ◊h2[#:id "get"]{Get Earl Grey}
+  ...
+
+}
+
+
+◊section{
+  ◊h2[#:id "sponsor"]{Sponsor the Project}
+  ...
+
+}
+
+
+◊section{
+  ◊h2[#:id "license"]{License}
+  ...
+
+}
+
+◊section{
+  ◊h2[#:id "credits"]{Credits}
+  ...
+
+}
+
+
+◊section{
+  ◊h2[#:id "links"]{Links}
+  ...
 
 }

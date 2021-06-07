@@ -22,6 +22,10 @@ p, blockquote {
     margin-bottom: 1rem;
 }
 
+section {
+    margin-bottom: 2rem;
+}
+
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
     font-size: 1.1rem;
@@ -136,8 +140,8 @@ img {
 .color-block {
     font-size: 0.9rem;
     padding: 0.8rem;
-    max-width: 6rem;
-    min-width: 6rem;
+    max-width: 6.8rem;
+    min-width: 6.8rem;
     min-height: 4rem;
     margin: 0.4rem 0.4rem;
 
