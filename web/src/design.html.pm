@@ -45,8 +45,7 @@
 
 
 ◊section{
-  ◊h2{Use italics to empasise important elements}
-
+  ◊h2{Use italics to emphasise important elements}
 }
 
 
