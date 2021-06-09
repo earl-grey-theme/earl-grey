@@ -28,42 +28,83 @@
   ◊h2{Use purple for syntax elements}
 
   The main syntax elements, such as
-  ◊span[#:class "eg-purple"]{if},
-  ◊span[#:class "eg-purple"]{else},
-  ◊span[#:class "eg-purple"]{function},
-  ◊span[#:class "eg-purple"]{const}, and
-  ◊span[#:class "eg-purple"]{class},
+  ◊eg/purple{if},
+  ◊eg/purple{else},
+  ◊eg/purple{function},
+  ◊eg/purple{const}, and
+  ◊eg/purple{for},
   should be colored purple (◊color-lozenge['purple]).
 
+  Example:
+
+  ◊pre{
+    ◊eg/purple{if} hungry:
+        ◊eg/purple{for} ◊eg/blue{food} ◊eg/purple{in} snacks:
+            eat(food)
+    ◊eg/purple{else}:
+        dance()
+        sleep()
+  }
 }
 
 
 ◊section{
   ◊h2{Use blue for variables}
+  Where possible, variables should be colored blue (◊color-lozenge['blue]).
+  This should also apply to function parameters.
 
+  Example:
+
+  ◊pre{
+    ◊eg/purple{const} ◊eg/blue{name} = getName()
+  }
 }
 
 
 ◊section{
   ◊h2{Use italics to emphasise important elements}
+
 }
 
 
 ◊section{
   ◊h2{Use teal for numbers and language constants}
 
+  Example:
+
+  ◊pre{
+    server.start({
+      ◊eg/italic{port:} ◊eg/teal{8091},
+      ◊eg/italic{secureMode:} ◊eg/teal{true}
+    })
+  }
 }
 
 
 ◊section{
   ◊h2{Use green for string literals}
 
+  Example:
+
+  ◊pre{
+    print(◊eg/green{"Hello World"})
+  }
 }
 
 
 ◊section{
   ◊h2{Use orange for special (or dangerous) syntax elements}
 
+
+  Example:
+
+  ◊pre{
+    ◊eg/orange{#include} ◊eg/green{"environment.h"}
+
+    ◊eg/purple{if} (◊eg/orange{!}awake) {
+      stayAsleep()
+    }
+  }
 }
 
 

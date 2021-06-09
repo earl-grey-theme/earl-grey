@@ -96,7 +96,7 @@ ul li {
 .right {
     text-align: right;
 }
-.italic {
+.italic, .eg-italic {
     font-style: italic;
 }
 .small {
@@ -153,6 +153,16 @@ img {
 }
 .eg-blue {
     color: #556995;
+}
+
+.eg-teal {
+    color: #477A7B;
+}
+
+/* Code */
+pre, code {
+    font-family: "Recursive Mono SemiCasual";
+    font-size: 0.82rem;
 }
 
 /* Media Queries */

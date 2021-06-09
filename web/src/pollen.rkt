@@ -89,6 +89,34 @@
                    "; border-radius: 4px")]]
          ,(eg-color code)))
 
+(define (eg/purple . elements)
+  `(span [[style ,(string-append "color: " (eg-color 'purple))]]
+         ,@elements))
+
+(define (eg/blue . elements)
+  `(span [[style ,(string-append "color: " (eg-color 'blue))]]
+         ,@elements))
+
+(define (eg/teal . elements)
+  `(span [[style ,(string-append "color: " (eg-color 'teal))]]
+         ,@elements))
+
+(define (eg/green . elements)
+  `(span [[style ,(string-append "color: " (eg-color 'green))]]
+         ,@elements))
+
+(define (eg/orange . elements)
+  `(span [[style ,(string-append "color: " (eg-color 'orange))]]
+         ,@elements))
+
+(define (eg/red . elements)
+  `(span [[style ,(string-append "color: " (eg-color 'red))]]
+         ,@elements))
+
+(define (eg/italic . elements)
+  `(span [[class "eg-italic"]]
+         ,@elements))
+
 ;; -------- Utilities
 (define (current-timestamp-utc-iso-8601)
   (let* ([seconds (current-seconds)]
