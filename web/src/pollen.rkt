@@ -113,6 +113,10 @@
   `(span [[style ,(string-append "color: " (eg-color 'red))]]
          ,@elements))
 
+(define (eg/grey . elements)
+  `(span [[style ,(string-append "color: " (eg-color 'grey4))]]
+         ,@elements))
+
 (define (eg/italic . elements)
   `(span [[class "eg-italic"]]
          ,@elements))
