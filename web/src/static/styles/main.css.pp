@@ -170,6 +170,14 @@ pre, code {
     font-size: 0.82rem;
 }
 
+/* Spec */
+.syntax-spec {
+    font-style: italic;
+}
+.syntax-spec .spec {
+    padding-left: 2rem;
+}
+
 /* Media Queries */
 @media (max-width: 760px) {
     html {
