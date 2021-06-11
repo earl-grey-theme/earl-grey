@@ -13,8 +13,13 @@
   and wherever you work with text and code. It was designed to be accessible and
   easy on the eyes.
 
-  You can read more about the ◊hyperlink["/design.html"]{design principles}
+  You can read more about the
   behind Earl Grey.
+
+  ◊ul{
+    ◊li{◊hyperlink["/design.html"]{Design Principles}}
+    ◊li{◊hyperlink["/spec.html"]{Specification}}
+  }
 }
 
 ◊section{
