@@ -34,10 +34,11 @@
     read))
 
 (define (eg-color c)
-  (define code (if (string? c)
-                     (string->symbol c)
-                     c))
-  (dict-ref eg-colors code))
+  (define color-code
+    (if (string? c)
+      (string->symbol c)
+      c))
+  (dict-ref eg-colors color-code))
 
 
 ;; -------- Custom Tags
