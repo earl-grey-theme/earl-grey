@@ -64,7 +64,7 @@ a {
     transition-duration: 0.2s;
 }
 a:hover {
-    background-color: #edeef0;
+    background-color: #f1ecee;
 }
 a:not(.no-dot)::after {
     content: "\FEFF°";
@@ -73,7 +73,7 @@ a:not(.no-dot)::after {
     margin-left: 0.10em;
     /* font-size: 96%; */
     font-weight: bold;
-    color: #556995;
+    color: #83577D;
 }
 
 /* Blockquotes */
