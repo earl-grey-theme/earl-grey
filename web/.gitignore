@@ -2,5 +2,6 @@ src/**/*.html
 src/**/*.swp
 src/compiled/
 src/**/compiled/
+src/static/*.css
 vars
 out/

@@ -29,11 +29,15 @@
 
 ;; -------- Colors
 (define eg-colors
-  (call-with-input-file "../../colors.se"
+  (call-with-input-file
+    (build-path (current-project-root) "../../colors.se")
     read))
 
 (define (eg-color c)
-  (dict-ref eg-colors c))
+  (define code (if (string? c)
+                     (string->symbol c)
+                     c))
+  (dict-ref eg-colors code))
 
 
 ;; -------- Custom Tags

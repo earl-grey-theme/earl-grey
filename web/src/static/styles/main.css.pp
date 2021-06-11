@@ -1,3 +1,4 @@
+#lang pollen
 @charset "UTF-8";
 
 /* Root Elements */
@@ -5,8 +6,8 @@ html {
     font-size: 26px;
     line-height: 1.4rem;
     font-family: "Crimson Pro", Georgia, serif;
-    background-color: #FCFBF9;
-    color: #605A52;
+    background-color: ◊(eg-color "bg");
+    color: ◊(eg-color "fg");
 }
 
 body {
@@ -59,7 +60,7 @@ header h1 {
 /* Links */
 a {
     text-decoration: none;
-    color: #605A52;
+    color: ◊(eg-color "fg");
     transition-property: background;
     transition-duration: 0.2s;
 }
@@ -73,14 +74,14 @@ a:not(.no-dot)::after {
     margin-left: 0.10em;
     /* font-size: 96%; */
     font-weight: bold;
-    color: #83577D;
+    color: ◊(eg-color "purple");
 }
 
 /* Blockquotes */
 blockquote {
     padding-left: 0.4rem;
     padding-right: 0.4rem;
-    color: #605A52;
+    color: ◊(eg-color "fg");
 }
 blockquote footer {
     text-align: right;
@@ -113,7 +114,7 @@ hr.asterism {
 }
 hr.asterism::before {
     content: "⁂";
-    color: #605A52;
+    color: ◊(eg-color "fg");
     font-size: 1rem;
     letter-spacing: 0px;
     margin: 0;
@@ -149,18 +150,18 @@ img {
 
 /* Colored Elements */
 .eg-purple {
-    color: #83577D;
+    color: ◊(eg-color "purple");
 }
 .eg-blue {
-    color: #556995;
+    color: ◊(eg-color "blue");
 }
 
 .eg-teal {
-    color: #477A7B;
+    color: ◊(eg-color "teal");
 }
 
 .eg-orange {
-    color: #886A44;
+    color: ◊(eg-color "orange");
 }
 
 /* Code */
