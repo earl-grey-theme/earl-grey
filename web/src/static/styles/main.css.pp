@@ -37,6 +37,10 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-size: 1.2rem;
 }
+h3 {
+    font-size: 1rem;
+    font-style: italic;
+}
 
 /* Site Header */
 header {
@@ -173,6 +177,7 @@ pre, code {
 /* Spec */
 .syntax-spec {
     font-style: italic;
+    margin-bottom: 1rem;
 }
 .syntax-spec .spec {
     padding-left: 2rem;

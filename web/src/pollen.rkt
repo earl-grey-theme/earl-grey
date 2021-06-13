@@ -126,27 +126,33 @@
   `(span [[class "eg-italic"]]
          ,@elements))
 
-(define (eg/syntax-spec name
-                        #:foreground [foreground "Foreground"]
-                        #:background [background #f]
-                        . rest
-                        )
+(define (eg/syntax-spec
+         name
+         #:foreground [foreground "Foreground"]
+         #:background [background #f]
+         . rest)
+  (define style-names
+    (hash 'italic
+          "Italic"
+          'bold
+          "Bold"))
+  (define styles
+    (string-join
+     (map  (lambda (k)
+             (hash-ref style-names k))
+           rest)
+     ", "))
   `(div [[class "syntax-spec"]]
       (div [[class "scope"]] ,name " : ")
       (div [[class "spec"]]
            "( "
            ,foreground
            ,(if (not (false? background))
-              (format " , ~a" background)
-              "")
-           " )"
-           ,(if (member 'italic rest)
-                " Italic"
+                (format " , ~a" background)
                 "")
-           ;; TODO: fix this comma when only bold
-           ,(if (member 'bold rest)
-                " , Bold"
-                ""))))
+           " )"
+           " "
+           ,styles)))
 
 ;; -------- Utilities
 (define (current-timestamp-utc-iso-8601)

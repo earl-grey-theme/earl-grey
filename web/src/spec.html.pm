@@ -12,6 +12,34 @@
 ◊section{
   ◊h2{General}
 
+  ◊eg/syntax-spec["Text" #:background "Background"]{}
+
+  ◊eg/syntax-spec["Invalid" #:foreground "Red"]{}
+
+  ◊eg/syntax-spec["Deprecated" #:foreground "Background" #:background "Red"]{}
+
+  ◊eg/syntax-spec["Error" #:foreground "Red"]{}
+
+  ◊h3{Diffs}
+  ◊eg/syntax-spec["DiffText" #:foreground "Foreground"]{}
+
+  ◊eg/syntax-spec["DiffHeader" #:foreground "Foreground"]{}
+
+  ◊eg/syntax-spec["DiffInserted" #:foreground "Green"]{}
+
+  ◊eg/syntax-spec["DiffDeleted" #:foreground "Red"]{}
+
+  ◊eg/syntax-spec["DiffChanged" #:foreground "Orange"]{}
+
+
+}
+
+
+◊section{
+  ◊h2{Markup}
+
+  ◊eg/syntax-spec["MarkupBold" 'bold]
+
 }
 
 ◊section{
