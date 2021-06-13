@@ -5,7 +5,6 @@
 ◊section{
   ◊h2{Prelude}
 
-  ◊eg/syntax-spec["Something" #:background "Red" 'italic 'bold ]{}
 
   ◊h3{Color Palette}
   ◊div[#:class "syntax-spec"]{Foreground: ◊color-lozenge['fg]}
