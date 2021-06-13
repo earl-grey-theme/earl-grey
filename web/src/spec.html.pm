@@ -7,6 +7,17 @@
 
   ◊eg/syntax-spec["Something" #:background "Red" 'italic 'bold ]{}
 
+  ◊h3{Color Palette}
+  ◊div[#:class "syntax-spec"]{Foreground: ◊color-lozenge['fg]}
+  ◊div[#:class "syntax-spec"]{Background: ◊color-lozenge['bg]}
+  ◊div[#:class "syntax-spec"]{BackgroundAlt: ◊color-lozenge['bg2]}
+  ◊div[#:class "syntax-spec"]{Purple: ◊color-lozenge['purple]}
+  ◊div[#:class "syntax-spec"]{Blue: ◊color-lozenge['blue]}
+  ◊div[#:class "syntax-spec"]{Teal: ◊color-lozenge['teal]}
+  ◊div[#:class "syntax-spec"]{Orange: ◊color-lozenge['orange]}
+  ◊div[#:class "syntax-spec"]{Green: ◊color-lozenge['green]}
+  ◊div[#:class "syntax-spec"]{Red: ◊color-lozenge['red]}
+  ◊div[#:class "syntax-spec"]{Comment: ◊color-lozenge['grey4]}
 }
 
 ◊section{
