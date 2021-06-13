@@ -132,10 +132,8 @@
          #:background [background #f]
          . rest)
   (define style-names
-    (hash 'italic
-          "Italic"
-          'bold
-          "Bold"))
+    (hash 'italic "Italic"
+          'bold   "Bold"))
   (define styles
     (string-join
      (map  (lambda (k)

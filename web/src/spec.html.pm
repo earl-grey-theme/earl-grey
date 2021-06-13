@@ -40,23 +40,52 @@
 
   ◊eg/syntax-spec["MarkupBold" 'bold]
 
+  ◊eg/syntax-spec["MarkupHeading" #:foreground "Purple" 'bold]
+
+  ◊eg/syntax-spec["MarkupItalic" 'italic]
+
+  ◊eg/syntax-spec["MarkupListBulletOrNumber" 'bold]
+
+  ◊eg/syntax-spec["MarkupInlineCode" #:foreground "Orange"]
+
+  ◊eg/syntax-spec["MarkupLinkUrl" #:foreground "Blue"]
+
+  ◊eg/syntax-spec["MarkupLinkText" #:foreground "Blue"]
+
+  ◊eg/syntax-spec["MarkupBlockQuote" #:foreground "Orange" ]
+
+  ◊eg/syntax-spec["MarkupHorizontalrule" #:foreground "Comment" ]
+
+  ◊eg/syntax-spec["MarkupCodeBlockWithoutSyntax" #:foreground "Orange" ]
+
+  ◊eg/syntax-spec["MarkupRSTConstants" #:foreground "Teal" ]
 }
 
 ◊section{
   ◊h2{Classes}
 
+  ◊eg/syntax-spec["ClassName" 'italic]
+  ◊eg/syntax-spec["InstanceReservedWords" #:foreground "Purple"]
+  ◊eg/syntax-spec["InheritedClassName" 'italic]
 }
 
 ◊section{
   ◊h2{Comments}
+  ◊eg/syntax-spec["Comment" #:foreground "Comment"]
+  ◊eg/syntax-spec["DocCommentKeywords" #:foreground "Comment"]
+  ◊eg/syntax-spec["DocCommentTypes" #:foreground "Comment" 'italic]
+  ◊eg/syntax-spec["DocCommentParameters" #:foreground "Comment"]
 }
 
 ◊section{
   ◊h2{Constants}
+  ◊eg/syntax-spec["Constant" #:foreground "Teal"]
+  ◊eg/syntax-spec["ConstantEscapeSequences" #:foreground "Orange" 'italic]
 }
 
 ◊section{
   ◊h2{Entities}
+  ◊eg/syntax-spec["HtmlTags" #:foreground "Purple"]
 }
 
 ◊section{
