@@ -90,32 +90,56 @@
 
 ◊section{
   ◊h2{Functions / Methods}
+  ◊eg/syntax-spec["FunctionNames" 'italic]
+  ◊eg/syntax-spec["FunctionParameters" #:foreground "Blue"]
+  ◊eg/syntax-spec["Decorators" #:foreground "Orange" 'italic]
 }
 
 ◊section{
   ◊h2{Keywords}
+  ◊eg/syntax-spec["Keyword" #:foreground "Purple"]
+  ◊eg/syntax-spec["KeywordNew" #:foreground "Purple"]
+  ◊eg/syntax-spec["KeywordGenericCssSelector" #:foreground "Purple"]
 }
 
 ◊section{
   ◊h2{Language Built-ins}
+  ◊eg/syntax-spec["Support" 'italic]
+  ◊eg/syntax-spec["BuiltInMagicMethodsOrConstants" 'italic]
+  ◊eg/syntax-spec["BuiltInFunctions" 'italic]
 }
 
 ◊section{
   ◊h2{Punctuation}
+  ◊eg/syntax-spec["SeparatorsReferencesOrAccessors"]
+  ◊eg/syntax-spec["BracketsParensBraces"]
+  ◊eg/syntax-spec["StringInterpolationOperators" #:foreground "Orange"]
 }
 
 ◊section{
   ◊h2{Serializable / Configuration Languages}
+  ◊eg/syntax-spec["Keys" #:foreground "Blue" 'italic]
+  ◊eg/syntax-spec["DateTime" ]
+  ◊eg/syntax-spec["YamlAliases" ]
 }
 
 ◊section{
   ◊h2{Storage}
+  ◊eg/syntax-spec["Storage" #:foreground "Purple"]
+  ◊eg/syntax-spec["Types" #:foreground "Purple"]
+  ◊eg/syntax-spec["Modifiers" #:foreground "Purple"]
 }
 
 ◊section{
   ◊h2{Strings}
+  ◊eg/syntax-spec["String" #:foreground "Green"]
+  ◊eg/syntax-spec["StringRegExp" #:foreground "Orange"]
 }
 
 ◊section{
   ◊h2{Variables}
+  ◊eg/syntax-spec["Variable" #:foreground "Blue"]
+  ◊eg/syntax-spec["ObjectKeys" 'italic]
+  ◊eg/syntax-spec["DestructuringAliasLHS" 'italic]
+  ◊eg/syntax-spec["DestructuringAliasRHS" #:foreground "Blue"]
 }
