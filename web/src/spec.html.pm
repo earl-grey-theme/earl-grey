@@ -5,7 +5,7 @@
 ◊section{
   ◊h2{Prelude}
 
-  ◊eg/syntax-spec["Something" #:background "Red" #:italic #t #:bold #t ]{}
+  ◊eg/syntax-spec["Something" #:background "Red" 'italic 'bold ]{}
 
 }
 

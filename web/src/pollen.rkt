@@ -129,8 +129,8 @@
 (define (eg/syntax-spec name
                         #:foreground [foreground "Foreground"]
                         #:background [background #f]
-                        #:italic [italic #f]
-                        #:bold   [bold #f])
+                        . rest
+                        )
   `(div [[class "syntax-spec"]]
       (div [[class "scope"]] ,name " : ")
       (div [[class "spec"]]
@@ -140,11 +140,11 @@
               (format " , ~a" background)
               "")
            " )"
-           ,(if (not (false? italic))
+           ,(if (member 'italic rest)
                 " Italic"
                 "")
            ;; TODO: fix this comma when only bold
-           ,(if (not (false? bold))
+           ,(if (member 'bold rest)
                 " , Bold"
                 ""))))
 
