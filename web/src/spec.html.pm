@@ -42,12 +42,122 @@
   ◊h2{General}
 
   ◊eg/syntax-spec["Text" #:background "Background"]{}
+}
+
+
+◊section{
+  ◊h2{Comment}
+
+  ◊eg/syntax-spec["Comment" #:foreground "Comment"]
+}
+
+◊section{
+  ◊h2{Constant}
+
+  ◊eg/syntax-spec["Constant" #:foreground "Teal"]
+}
+
+◊section{
+  ◊h2{Entity}
+
+  ◊eg/syntax-spec["Entity.Name.Function" 'italic]
+  ◊eg/syntax-spec["Entity.Name.Type" 'italic]
+  ◊eg/syntax-spec["Entity.Name.Section" #:foreground "Purple"]
+  ◊eg/syntax-spec["Entity.Name.Tag" #:foreground "Purple"]
+  ◊eg/syntax-spec["Entity.Other.InheritedClass" 'italic]
+  ◊eg/syntax-spec["Entity.Other.Attribute" 'italic]
+}
+
+◊section{
+  ◊h2{Invalid}
 
   ◊eg/syntax-spec["Invalid" #:foreground "Red"]{}
+  ◊; TODO: maybe background red?
+  ◊eg/syntax-spec["Invalid.Illegal" #:foreground "Red"]{}
+  ◊eg/syntax-spec["Invalid.Deprecated" #:foreground "Background" #:background "Red"]{}
+}
 
-  ◊eg/syntax-spec["Deprecated" #:foreground "Background" #:background "Red"]{}
+◊section{
+  ◊h2{Keyword}
 
-  ◊eg/syntax-spec["Error" #:foreground "Red"]{}
+  ◊eg/syntax-spec["Keyword" #:foreground "Purple"]{}
+  ◊eg/syntax-spec["Keyword.Operator" #:foreground "Foreground"]{}
+}
+
+◊section{
+  ◊h2{Markup}
+
+  ◊eg/syntax-spec["Markup" #:foreground "Foreground"]{}
+  ◊eg/syntax-spec["Markup.Bold" 'bold]{}
+  ◊eg/syntax-spec["Markup.Heading" #:foreground "Purple" 'bold]{}
+  ◊eg/syntax-spec["Markup.Italic" 'italic]{}
+  ◊eg/syntax-spec["Markup.Link.Text" #:foreground "Blue"]{}
+  ◊eg/syntax-spec["Markup.Link.Url" #:foreground "Blue"]{}
+  ◊eg/syntax-spec["Markup.List" #:foreground "Foreground"]{}
+  ◊eg/syntax-spec["Markup.Quote" #:foreground "Orange"]{}
+  ◊eg/syntax-spec["Markup.Raw" #:foreground "Orange"]{}
+}
+
+◊section{
+  ◊h2{Meta}
+
+  ◊eg/syntax-spec["Meta.ObjectLiteral.Key" 'italic]
+}
+
+◊section{
+  ◊h2{Storage}
+
+  ◊eg/syntax-spec["Storage" #:foreground "Purple"]
+  ◊eg/syntax-spec["Storage.Type" #:foreground "Purple"]{}
+  ◊eg/syntax-spec["Storage.Modifier" #:foreground "Purple" 'italic]{}
+}
+
+◊section{
+  ◊h2{String}
+
+  ◊eg/syntax-spec["String" #:foreground "Green"]
+  ◊eg/syntax-spec["String.Regexp" #:foreground "Orange"]
+}
+
+◊section{
+  ◊h2{Support}
+
+  ◊eg/syntax-spec["Support.Function" 'italic]
+  ◊eg/syntax-spec["Support.Class" 'italic]
+  ◊eg/syntax-spec["Support.Type" 'italic]
+  ◊eg/syntax-spec["Support.Constant" #:foreground "Teal"]
+  ◊eg/syntax-spec["Support.Variable" #:foreground "Blue"]
+}
+
+◊section{
+  ◊h2{Variable}
+
+  ◊eg/syntax-spec["Variable" #:foreground "Blue"]
+  ◊eg/syntax-spec["Variable.Parameter" #:foreground "Blue"]
+  ◊eg/syntax-spec["Variable.Language" #:foreground "Purple"]
+  ◊eg/syntax-spec["ObjectKeys" 'italic]
+  ◊eg/syntax-spec["DestructuringAliasLHS" 'italic]
+  ◊eg/syntax-spec["DestructuringAliasRHS" #:foreground "Blue"]
+}
+
+◊section{
+  ◊h2{Meta}
+
+  …
+}
+
+
+◊hr{}
+
+
+
+
+
+◊section{
+  ◊h2{General}
+
+  ◊eg/syntax-spec["Text" #:background "Background"]{}
+
 
 }
 
