@@ -5,6 +5,25 @@
 ◊section{
   ◊h2{Prelude}
 
+  ◊h3{Interpreting this specification}
+  Language syntaxes and scopes will be referred to in the following manner
+  throughout this document:
+
+  ◊eg/syntax-spec[
+    "Scope"
+    #:foreground "ForegroundColor"
+    #:background "BackgroundColor"
+    'italic
+    'bold
+  ]{}
+
+  … where ◊eg/italic{BackgroundColor}, ◊eg/italic{Italic}, and ◊eg/italic{Bold} are optional.
+
+  Throughout the document, broad ranges of syntax tokens will be referred to
+  using
+  ◊hyperlink["https://macromates.com/manual/en/language_grammars#naming_conventions"]{TextMate
+  Naming Conventions}.
+
 
   ◊h3{Color Palette}
   ◊div[#:class "syntax-spec"]{Foreground: ◊color-lozenge['fg]}
