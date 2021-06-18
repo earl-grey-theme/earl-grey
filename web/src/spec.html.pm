@@ -17,7 +17,8 @@
     'bold
   ]{}
 
-  … where ◊eg/italic{BackgroundColor}, ◊eg/italic{Italic}, and ◊eg/italic{Bold} are optional.
+  … where ◊eg/italic{BackgroundColor}, ◊eg/italic{Italic}, and ◊eg/italic{Bold}
+  are optional.
 
   Throughout the document, broad ranges of syntax tokens will be referred to
   using
@@ -72,8 +73,7 @@
   ◊h2{Invalid}
 
   ◊eg/syntax-spec["Invalid" #:foreground "Red"]{}
-  ◊; TODO: maybe background red?
-  ◊eg/syntax-spec["Invalid.Illegal" #:foreground "Red"]{}
+  ◊eg/syntax-spec["Invalid.Illegal" #:foreground "Background" #:background "Red"]{}
   ◊eg/syntax-spec["Invalid.Deprecated" #:foreground "Background" #:background "Red"]{}
 }
 
@@ -135,150 +135,6 @@
   ◊eg/syntax-spec["Variable" #:foreground "Blue"]
   ◊eg/syntax-spec["Variable.Parameter" #:foreground "Blue"]
   ◊eg/syntax-spec["Variable.Language" #:foreground "Purple"]
-  ◊eg/syntax-spec["ObjectKeys" 'italic]
-  ◊eg/syntax-spec["DestructuringAliasLHS" 'italic]
-  ◊eg/syntax-spec["DestructuringAliasRHS" #:foreground "Blue"]
-}
-
-◊section{
-  ◊h2{Meta}
-
-  …
-}
-
-
-◊hr{}
-
-
-
-
-
-◊section{
-  ◊h2{General}
-
-  ◊eg/syntax-spec["Text" #:background "Background"]{}
-
-
-}
-
-◊section{
-  ◊h2{Diffs}
-  ◊eg/syntax-spec["DiffText" #:foreground "Foreground"]{}
-
-  ◊eg/syntax-spec["DiffHeader" #:foreground "Foreground"]{}
-
-  ◊eg/syntax-spec["DiffInserted" #:foreground "Green"]{}
-
-  ◊eg/syntax-spec["DiffDeleted" #:foreground "Red"]{}
-
-  ◊eg/syntax-spec["DiffChanged" #:foreground "Orange"]{}
-}
-
-
-◊section{
-  ◊h2{Markup}
-
-  ◊eg/syntax-spec["MarkupBold" 'bold]
-
-  ◊eg/syntax-spec["MarkupHeading" #:foreground "Purple" 'bold]
-
-  ◊eg/syntax-spec["MarkupItalic" 'italic]
-
-  ◊eg/syntax-spec["MarkupListBulletOrNumber" 'bold]
-
-  ◊eg/syntax-spec["MarkupInlineCode" #:foreground "Orange"]
-
-  ◊eg/syntax-spec["MarkupLinkUrl" #:foreground "Blue"]
-
-  ◊eg/syntax-spec["MarkupLinkText" #:foreground "Blue"]
-
-  ◊eg/syntax-spec["MarkupBlockQuote" #:foreground "Orange" ]
-
-  ◊eg/syntax-spec["MarkupHorizontalrule" #:foreground "Comment" ]
-
-  ◊eg/syntax-spec["MarkupCodeBlockWithoutSyntax" #:foreground "Orange" ]
-
-  ◊eg/syntax-spec["MarkupRSTConstants" #:foreground "Teal" ]
-}
-
-◊section{
-  ◊h2{Classes}
-
-  ◊eg/syntax-spec["ClassName" 'italic]
-  ◊eg/syntax-spec["InstanceReservedWords" #:foreground "Purple"]
-  ◊eg/syntax-spec["InheritedClassName" 'italic]
-}
-
-◊section{
-  ◊h2{Comments}
-  ◊eg/syntax-spec["Comment" #:foreground "Comment"]
-  ◊eg/syntax-spec["DocCommentKeywords" #:foreground "Comment"]
-  ◊eg/syntax-spec["DocCommentTypes" #:foreground "Comment" 'italic]
-  ◊eg/syntax-spec["DocCommentParameters" #:foreground "Comment"]
-}
-
-◊section{
-  ◊h2{Constants}
-  ◊eg/syntax-spec["Constant" #:foreground "Teal"]
-  ◊eg/syntax-spec["ConstantEscapeSequences" #:foreground "Orange" 'italic]
-}
-
-◊section{
-  ◊h2{Entities}
-  ◊eg/syntax-spec["HtmlTags" #:foreground "Purple"]
-}
-
-◊section{
-  ◊h2{Functions / Methods}
-  ◊eg/syntax-spec["FunctionNames" 'italic]
-  ◊eg/syntax-spec["FunctionParameters" #:foreground "Blue"]
-  ◊eg/syntax-spec["Decorators" #:foreground "Orange" 'italic]
-}
-
-◊section{
-  ◊h2{Keywords}
-  ◊eg/syntax-spec["Keyword" #:foreground "Purple"]
-  ◊eg/syntax-spec["KeywordNew" #:foreground "Purple"]
-  ◊eg/syntax-spec["KeywordGenericCssSelector" #:foreground "Purple"]
-}
-
-◊section{
-  ◊h2{Language Built-ins}
-  ◊eg/syntax-spec["Support" 'italic]
-  ◊eg/syntax-spec["BuiltInMagicMethodsOrConstants" 'italic]
-  ◊eg/syntax-spec["BuiltInFunctions" 'italic]
-}
-
-◊section{
-  ◊h2{Punctuation}
-  ◊eg/syntax-spec["SeparatorsReferencesOrAccessors"]
-  ◊eg/syntax-spec["BracketsParensBraces"]
-  ◊eg/syntax-spec["StringInterpolationOperators" #:foreground "Orange"]
-}
-
-◊section{
-  ◊h2{Serializable / Configuration Languages}
-  ◊eg/syntax-spec["Keys" #:foreground "Blue" 'italic]
-  ◊eg/syntax-spec["DateTime" ]
-  ◊eg/syntax-spec["YamlAliases" ]
-}
-
-◊section{
-  ◊h2{Storage}
-  ◊eg/syntax-spec["Storage" #:foreground "Purple"]
-  ◊eg/syntax-spec["Types" #:foreground "Purple"]
-  ◊eg/syntax-spec["Modifiers" #:foreground "Purple"]
-}
-
-◊section{
-  ◊h2{Strings}
-  ◊eg/syntax-spec["String" #:foreground "Green"]
-  ◊eg/syntax-spec["StringRegExp" #:foreground "Orange"]
-}
-
-◊section{
-  ◊h2{Variables}
-  ◊eg/syntax-spec["Variable" #:foreground "Blue"]
   ◊eg/syntax-spec["ObjectKeys" 'italic]
   ◊eg/syntax-spec["DestructuringAliasLHS" 'italic]
   ◊eg/syntax-spec["DestructuringAliasRHS" #:foreground "Blue"]
