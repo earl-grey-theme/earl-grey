@@ -49,7 +49,10 @@
 
   ◊eg/syntax-spec["Error" #:foreground "Red"]{}
 
-  ◊h3{Diffs}
+}
+
+◊section{
+  ◊h2{Diffs}
   ◊eg/syntax-spec["DiffText" #:foreground "Foreground"]{}
 
   ◊eg/syntax-spec["DiffHeader" #:foreground "Foreground"]{}
@@ -59,8 +62,6 @@
   ◊eg/syntax-spec["DiffDeleted" #:foreground "Red"]{}
 
   ◊eg/syntax-spec["DiffChanged" #:foreground "Orange"]{}
-
-
 }
 
 
