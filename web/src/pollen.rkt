@@ -63,7 +63,7 @@
                   "; background-color: " (eg-color code))]]
         (span [] ,name ": ")
         (br)
-        (span [] ,(eg-color code))))
+        (code [] ,(eg-color code))))
 
 (define (list-page-links pages)
   (define (make-li post)
