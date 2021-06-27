@@ -97,7 +97,9 @@
   ◊hyperlink["https://github.com/biletskyy/flatwhite-syntax"]{Flatwhite Syntax}
   by ◊hyperlink["https://github.com/biletskyy"]{Dmitry Biletskyy}.
 
-  This website is made with ◊hyperlink["https://docs.racket-lang.org/pollen/"]{Pollen}.
+  This website is made with
+  ◊hyperlink["https://docs.racket-lang.org/pollen/"]{Pollen}.  The font used in
+  code previews is ◊hyperlink["https://www.recursive.design/"]{Recursive Mono}.
 }
 
 
