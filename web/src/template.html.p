@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="/static/styles/fonts.css">
         <link rel="stylesheet" href="/static/styles/main.css">
+        <link rel="icon" href="/static/images/favicon.png">
         <meta name="generator" content="Racket + Pollen">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>◊(or (select-from-metas 'title here) (site-title))</title>
