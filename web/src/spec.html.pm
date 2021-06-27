@@ -103,6 +103,7 @@
   ◊h2{Meta}
 
   ◊eg/syntax-spec["Meta.ObjectLiteral.Key" 'italic]
+  ◊eg/syntax-spec["Meta.Preprocessor" #:foreground "Orange"]
 }
 
 ◊section{
