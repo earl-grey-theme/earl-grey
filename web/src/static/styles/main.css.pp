@@ -3,7 +3,7 @@
 
 /* Root Elements */
 html {
-    font-size: 26px;
+    font-size: 24px;
     line-height: 1.4rem;
     font-family: "Crimson Pro", Georgia, serif;
     background-color: ◊(eg-color "bg");
@@ -146,13 +146,11 @@ img {
 }
 
 .color-block {
-    font-size: 0.9rem;
     padding: 0.8rem;
     max-width: 6.8rem;
     min-width: 6.8rem;
     min-height: 4rem;
     margin: 0.4rem 0.4rem;
-
 }
 
 /* Colored Elements */
