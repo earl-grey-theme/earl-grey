@@ -43,6 +43,7 @@
   ◊h2{General}
 
   ◊eg/syntax-spec["Text" #:background "Background"]{}
+  ◊eg/syntax-spec["Source" #:background "Background"]{}
 }
 
 
