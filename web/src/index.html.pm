@@ -96,6 +96,8 @@
   with inspiration from
   ◊hyperlink["https://github.com/biletskyy/flatwhite-syntax"]{Flatwhite Syntax}
   by ◊hyperlink["https://github.com/biletskyy"]{Dmitry Biletskyy}.
+
+  This website is made with ◊hyperlink["https://docs.racket-lang.org/pollen/"]{Pollen}.
 }
 
 
