@@ -2,6 +2,7 @@
 
 A gentle color scheme for code.
 
+![screenshot](./web/src/static/images/earl-grey-demo-1)
 ![screenshot](./reference/earl-grey-palette.png)
 
 
