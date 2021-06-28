@@ -14,7 +14,7 @@ A gentle color scheme for code.
 - Use the default text color (Black) as much as possible
 - Use Purple for syntax elements (if / when)
 - Use Blue for variables (foo)
-- The most common colors should be White, Black, Purle, and Blue,
+- The most common colors should be White, Black, Purple, and Blue,
   in that order
 - Use Italics to emphasise important elements, such as types,
   function names, and collection keys
