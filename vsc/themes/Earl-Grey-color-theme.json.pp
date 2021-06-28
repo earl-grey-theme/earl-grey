@@ -1,3 +1,4 @@
+#lang pollen
 {
 	"name": "Earl Grey",
 	"type": "light",

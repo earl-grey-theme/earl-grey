@@ -1,7 +1,0 @@
-src/**/*.html
-src/**/*.swp
-src/compiled/
-src/**/compiled/
-src/static/styles/*.css
-vars
-out/
