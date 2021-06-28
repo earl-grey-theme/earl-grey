@@ -2,7 +2,7 @@
 
 A gentle color scheme for code.
 
-![screenshot](./reference/earl-grey-4.1.0.png)
+![screenshot](./reference/earl-grey-palette.png)
 
 
 ## Design Principles
