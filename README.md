@@ -2,8 +2,8 @@
 
 A gentle color scheme for code.
 
-![screenshot](./web/src/static/images/earl-grey-demo-1.png)
-![screenshot](./reference/earl-grey-palette.png)
+![Earl Grey demo with javascript code](./web/src/static/images/earl-grey-demo-1.png)
+![Earl Grey color palette](./reference/earl-grey-palette.png)
 
 
 ## Design Principles
