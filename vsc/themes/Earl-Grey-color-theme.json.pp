@@ -3,7 +3,7 @@
 	"name": "Earl Grey",
 	"type": "light",
 	"colors": {
-		"editor.background": "#f5f5f5",
+		"editor.background": "◊(eg-color 'bg)",
 		"editor.foreground": "#333333"
 	},
 	"tokenColors": [

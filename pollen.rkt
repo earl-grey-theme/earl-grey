@@ -30,7 +30,7 @@
 ;; -------- Colors
 (define eg-colors
   (call-with-input-file
-    (build-path (current-project-root) "../../colors.se")
+    (build-path (current-project-root) "./colors.se")
     read))
 
 (define (eg-color c)
