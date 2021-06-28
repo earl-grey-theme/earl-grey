@@ -1,0 +1,21 @@
+{
+    "name": "earl-grey",
+    "displayName": "Earl Grey",
+    "description": "A gentle color scheme, for code",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.57.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Earl Grey",
+                "uiTheme": "vs",
+                "path": "./themes/Earl-Grey-color-theme.json"
+            }
+        ]
+    }
+}
