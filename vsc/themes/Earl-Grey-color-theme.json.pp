@@ -321,6 +321,15 @@
 			}
 		},
 		{
+			"name": "Markup: Code",
+			"scope": [
+				"markup.fenced_code.block",
+			],
+			"settings": {
+				"foreground": "◊(eg-color 'orange)"
+			}
+		},
+		{
 			"name": "Markup: Prompt",
 			"scope": "markup.prompt",
 			"settings": {
@@ -429,6 +438,14 @@
 			],
 			"settings": {
 				"foreground": "◊(eg-color 'fg)"
+			}
+		},
+		// Markdown
+		{
+			"name": "Markdown: link title",
+			"scope": "string.other.link.title",
+			"settings": {
+				"foreground": "◊(eg-color 'teal)"
 			}
 		}
 	]
