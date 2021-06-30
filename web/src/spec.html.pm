@@ -56,13 +56,14 @@
 ◊section{
   ◊h2{Comment}
 
-  ◊eg/syntax-spec["Comment" #:foreground "Comment"]
+  ◊eg/syntax-spec["Comment" #:foreground "Comment" 'italic]
 }
 
 ◊section{
   ◊h2{Constant}
 
   ◊eg/syntax-spec["Constant" #:foreground "Teal"]
+  ◊eg/syntax-spec["Constant.Character.Escape" #:foreground "Teal"]
 }
 
 ◊section{
