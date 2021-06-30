@@ -420,6 +420,16 @@
 			"settings": {
 				"foreground": "◊(eg-color 'fg)"
 			}
+		},
+		{
+			"name": "JS variable (object) property",
+			"scope": [
+				"variable.other.object.property.js",
+				"variable.other.property.js"
+			],
+			"settings": {
+				"foreground": "◊(eg-color 'fg)"
+			}
 		}
 	]
 }
