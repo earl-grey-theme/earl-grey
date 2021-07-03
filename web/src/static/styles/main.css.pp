@@ -146,11 +146,15 @@ img {
 }
 
 .color-block {
+    font-size: 0.8rem;
     padding: 0.8rem;
     max-width: 6.8rem;
     min-width: 6.8rem;
     min-height: 4rem;
     margin: 0.4rem 0.4rem;
+}
+.color-block code {
+    font-size: 0.78rem;
 }
 
 /* Colored Elements */

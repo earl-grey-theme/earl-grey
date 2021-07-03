@@ -9,7 +9,7 @@ run-web:
 
 
 vsc/themes/Earl-Grey-color-theme.json:  vsc/themes/Earl-Grey-color-theme.json.pp
-	raco pollen render $@.pp
+	cd vsc; raco pollen render themes/Earl-Grey-color-theme.json
 
 
 vsc: vsc/themes/Earl-Grey-color-theme.json

@@ -8,9 +8,11 @@
          pollen/template
          pollen/core
          pollen/pagetree
-         racket/date)
+         racket/date
+         "../../earl-grey.rkt")
 
-(provide (all-defined-out))
+(provide (all-defined-out)
+         eg-color)
 
 
 ;; -------- Setup
@@ -25,20 +27,6 @@
 
 (define (site-title)
   (or (env-lookup "SITE_TITLE") "A Cool Site"))
-
-
-;; -------- Colors
-(define eg-colors
-  (call-with-input-file
-    (build-path (current-project-root) "./colors.se")
-    read))
-
-(define (eg-color c)
-  (define color-code
-    (if (string? c)
-      (string->symbol c)
-      c))
-  (dict-ref eg-colors color-code))
 
 
 ;; -------- Custom Tags
