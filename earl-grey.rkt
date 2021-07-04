@@ -5,6 +5,7 @@
 
 (define earl-grey-colors
   '((fg     . "#605A52" )
+    (fg2    . "#4C4741" )
     (bg     . "#FCFBF9" )
     (bg2    . "#F7F3EE" )
 
