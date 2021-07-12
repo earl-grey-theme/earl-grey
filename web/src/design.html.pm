@@ -150,7 +150,7 @@
 ◊section{
   ◊h2{Use grey for comments}
 
-  Comments should be highlighted in Grey (◊color-lozenge['grey4])
+  Comments should be highlighted in Grey (◊color-lozenge['grey5])
 
   Example:
 

@@ -38,8 +38,81 @@
   ◊div[#:class "syntax-spec"]{Orange: ◊color-lozenge['orange]}
   ◊div[#:class "syntax-spec"]{Green: ◊color-lozenge['green]}
   ◊div[#:class "syntax-spec"]{Red: ◊color-lozenge['red]}
-  ◊div[#:class "syntax-spec"]{Comment: ◊color-lozenge['grey4]}
+  ◊div[#:class "syntax-spec"]{Comment: ◊color-lozenge['grey5]}
+
+
+  ◊h3{Blend Colors}
+  ◊div[#:class "syntax-spec"]{Grey1: ◊color-lozenge[#:foreground 'fg 'grey1]}
+  ◊div[#:class "syntax-spec"]{Grey2: ◊color-lozenge[#:foreground 'fg 'grey2]}
+  ◊div[#:class "syntax-spec"]{Grey3: ◊color-lozenge[#:foreground 'fg 'grey3]}
+  ◊div[#:class "syntax-spec"]{Grey4: ◊color-lozenge['grey4]}
+  ◊div[#:class "syntax-spec"]{Grey5: ◊color-lozenge['grey5]}
+  ◊div[#:class "syntax-spec"]{Grey6: ◊color-lozenge['grey6]}
+  ◊div[#:class "syntax-spec"]{Grey7: ◊color-lozenge['grey7]}
+  ◊div[#:class "syntax-spec"]{Grey8: ◊color-lozenge['grey8]}
+  ◊div[#:class "syntax-spec"]{Grey9: ◊color-lozenge['grey9]}
+
+  ◊div[#:class "syntax-spec"]{Purple1: ◊color-lozenge[#:foreground 'fg 'purple1]}
+  ◊div[#:class "syntax-spec"]{Purple2: ◊color-lozenge[#:foreground 'fg 'purple2]}
+  ◊div[#:class "syntax-spec"]{Purple3: ◊color-lozenge[#:foreground 'fg 'purple3]}
+  ◊div[#:class "syntax-spec"]{Purple4: ◊color-lozenge['purple4]}
+  ◊div[#:class "syntax-spec"]{Purple5: ◊color-lozenge['purple5]}
+  ◊div[#:class "syntax-spec"]{Purple6: ◊color-lozenge['purple6]}
+  ◊div[#:class "syntax-spec"]{Purple7: ◊color-lozenge['purple7]}
+  ◊div[#:class "syntax-spec"]{Purple8: ◊color-lozenge['purple8]}
+  ◊div[#:class "syntax-spec"]{Purple9: ◊color-lozenge['purple9]}
+
+  ◊div[#:class "syntax-spec"]{Blue1: ◊color-lozenge[#:foreground 'fg 'blue1]}
+  ◊div[#:class "syntax-spec"]{Blue2: ◊color-lozenge[#:foreground 'fg 'blue2]}
+  ◊div[#:class "syntax-spec"]{Blue3: ◊color-lozenge[#:foreground 'fg 'blue3]}
+  ◊div[#:class "syntax-spec"]{Blue4: ◊color-lozenge['blue4]}
+  ◊div[#:class "syntax-spec"]{Blue5: ◊color-lozenge['blue5]}
+  ◊div[#:class "syntax-spec"]{Blue6: ◊color-lozenge['blue6]}
+  ◊div[#:class "syntax-spec"]{Blue7: ◊color-lozenge['blue7]}
+  ◊div[#:class "syntax-spec"]{Blue8: ◊color-lozenge['blue8]}
+  ◊div[#:class "syntax-spec"]{Blue9: ◊color-lozenge['blue9]}
+
+  ◊div[#:class "syntax-spec"]{Teal1: ◊color-lozenge[#:foreground 'fg 'teal1]}
+  ◊div[#:class "syntax-spec"]{Teal2: ◊color-lozenge[#:foreground 'fg 'teal2]}
+  ◊div[#:class "syntax-spec"]{Teal3: ◊color-lozenge[#:foreground 'fg 'teal3]}
+  ◊div[#:class "syntax-spec"]{Teal4: ◊color-lozenge['teal4]}
+  ◊div[#:class "syntax-spec"]{Teal5: ◊color-lozenge['teal5]}
+  ◊div[#:class "syntax-spec"]{Teal6: ◊color-lozenge['teal6]}
+  ◊div[#:class "syntax-spec"]{Teal7: ◊color-lozenge['teal7]}
+  ◊div[#:class "syntax-spec"]{Teal8: ◊color-lozenge['teal8]}
+  ◊div[#:class "syntax-spec"]{Teal9: ◊color-lozenge['teal9]}
+
+  ◊div[#:class "syntax-spec"]{Orange1: ◊color-lozenge[#:foreground 'fg 'orange1]}
+  ◊div[#:class "syntax-spec"]{Orange2: ◊color-lozenge[#:foreground 'fg 'orange2]}
+  ◊div[#:class "syntax-spec"]{Orange3: ◊color-lozenge[#:foreground 'fg 'orange3]}
+  ◊div[#:class "syntax-spec"]{Orange4: ◊color-lozenge['orange4]}
+  ◊div[#:class "syntax-spec"]{Orange5: ◊color-lozenge['orange5]}
+  ◊div[#:class "syntax-spec"]{Orange6: ◊color-lozenge['orange6]}
+  ◊div[#:class "syntax-spec"]{Orange7: ◊color-lozenge['orange7]}
+  ◊div[#:class "syntax-spec"]{Orange8: ◊color-lozenge['orange8]}
+  ◊div[#:class "syntax-spec"]{Orange9: ◊color-lozenge['orange9]}
+
+  ◊div[#:class "syntax-spec"]{Green1: ◊color-lozenge[#:foreground 'fg 'green1]}
+  ◊div[#:class "syntax-spec"]{Green2: ◊color-lozenge[#:foreground 'fg 'green2]}
+  ◊div[#:class "syntax-spec"]{Green3: ◊color-lozenge[#:foreground 'fg 'green3]}
+  ◊div[#:class "syntax-spec"]{Green4: ◊color-lozenge['green4]}
+  ◊div[#:class "syntax-spec"]{Green5: ◊color-lozenge['green5]}
+  ◊div[#:class "syntax-spec"]{Green6: ◊color-lozenge['green6]}
+  ◊div[#:class "syntax-spec"]{Green7: ◊color-lozenge['green7]}
+  ◊div[#:class "syntax-spec"]{Green8: ◊color-lozenge['green8]}
+  ◊div[#:class "syntax-spec"]{Green9: ◊color-lozenge['green9]}
+
+  ◊div[#:class "syntax-spec"]{Red1: ◊color-lozenge[#:foreground 'fg 'red1]}
+  ◊div[#:class "syntax-spec"]{Red2: ◊color-lozenge[#:foreground 'fg 'red2]}
+  ◊div[#:class "syntax-spec"]{Red3: ◊color-lozenge[#:foreground 'fg 'red3]}
+  ◊div[#:class "syntax-spec"]{Red4: ◊color-lozenge['red4]}
+  ◊div[#:class "syntax-spec"]{Red5: ◊color-lozenge['red5]}
+  ◊div[#:class "syntax-spec"]{Red6: ◊color-lozenge['red6]}
+  ◊div[#:class "syntax-spec"]{Red7: ◊color-lozenge['red7]}
+  ◊div[#:class "syntax-spec"]{Red8: ◊color-lozenge['red8]}
+  ◊div[#:class "syntax-spec"]{Red9: ◊color-lozenge['red9]}
 }
+
 
 ◊section{
   ◊h2{General}

@@ -69,10 +69,11 @@
 (define (asterism)
   '(hr [[class "asterism"]]))
 
-(define (color-lozenge code)
-  (define foreground (if (member code '(bg bg2))
-                         (eg-color 'fg)
-                         (eg-color 'bg)))
+(define (color-lozenge #:foreground [specified-fg #f] code)
+  (define foreground (cond
+                       [(not (false? specified-fg)) (eg-color specified-fg)]
+                       [(member code '(bg bg2)) (eg-color 'fg)]
+                       [else (eg-color 'bg)]))
   `(span [[class "color-lozenge"]
           [style ,(string-append
                    "background-color: "
@@ -107,7 +108,7 @@
          ,@elements))
 
 (define (eg/grey . elements)
-  `(span [[style ,(string-append "color: " (eg-color 'grey4))]]
+  `(span [[style ,(string-append "color: " (eg-color 'grey5))]]
          ,@elements))
 
 (define (eg/italic . elements)
