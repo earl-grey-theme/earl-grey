@@ -11,7 +11,7 @@
     </head>
     <body>
         <header>
-            <h1><a href="/" class="no-dot">◊(site-title)</a></h1>
+            <h1><a href="/" class="simple">◊(site-title)</a></h1>
             <p class="subtitle">
                 A gentle color scheme, for code.
             </p>

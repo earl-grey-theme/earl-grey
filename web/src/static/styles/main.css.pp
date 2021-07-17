@@ -67,21 +67,15 @@ header h1 {
 /* Links */
 a {
     text-decoration: none;
-    color: ◊(eg-color "fg");
+    color: ◊(eg-color "purple");
     transition-property: background;
     transition-duration: 0.2s;
 }
 a:hover {
-    background-color: #f1ecee;
+    background-color: ◊(eg-color "purple1");
 }
-a:not(.no-dot)::after {
-    content: "\FEFF°";
-    position: relative;
-    top: -0.10em;
-    margin-left: 0.10em;
-    /* font-size: 96%; */
-    font-weight: bold;
-    color: ◊(eg-color "purple");
+a:not(.simple) {
+    text-decoration: underline;
 }
 
 /* Blockquotes */
