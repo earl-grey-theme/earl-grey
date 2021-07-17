@@ -66,7 +66,7 @@ header h1 {
 
 /* Links */
 a {
-    text-decoration: none;
+    text-decoration: underline;
     color: ◊(eg-color "purple");
     transition-property: background;
     transition-duration: 0.2s;
@@ -74,8 +74,8 @@ a {
 a:hover {
     background-color: ◊(eg-color "purple1");
 }
-a:not(.simple) {
-    text-decoration: underline;
+a.simple {
+    text-decoration: none;
 }
 
 /* Blockquotes */
