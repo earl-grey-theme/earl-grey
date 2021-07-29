@@ -24,7 +24,7 @@
 
         ◊when/splice[(not hide-title)]{
         <h1 class="page-title">
-            <a href="◊|here|" class="simple">◊|title|</a>
+            · <a href="◊|here|" class="simple">◊|title|</a>
         </h1>
         }
 

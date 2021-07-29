@@ -75,6 +75,7 @@ a:hover {
     background-color: ◊(eg-color "purple1");
 }
 a.simple {
+    color: ◊(eg-color "fg");
     text-decoration: none;
 }
 
