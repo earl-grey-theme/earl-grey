@@ -4,11 +4,12 @@
 # @file
 # @version 0.1
 
-run-web:
-	cd web; ./make.sh run
-
 install-deps:
 	raco pkg install --auto pollen
+
+
+run-web:
+	cd web; ./make.sh run
 
 
 vsc/themes/Earl-Grey-color-theme.json:  vsc/themes/Earl-Grey-color-theme.json.pp
