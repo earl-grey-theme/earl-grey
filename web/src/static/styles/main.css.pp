@@ -125,7 +125,7 @@ hr.asterism::before {
 
 /* Images */
 img {
-  max-width: 740px;
+  max-width: 660px;
   display: block;
   margin-left: auto;
   margin-right: auto;
