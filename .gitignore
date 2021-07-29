@@ -15,6 +15,5 @@ web/vars
 web/out/
 
 # VSC
-vsc/themes/Earl-Grey-color-theme.json
 vsc/themes/compiled/
 vsc/themes/**/compiled/
