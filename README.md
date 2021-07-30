@@ -2,7 +2,7 @@
 
 A gentle color scheme for code.
 
-![Earl Grey demo with javascript code](./web/src/static/images/earl-grey-js-demo.png)
+![Earl Grey demo with javascript code](./eg-demo.png)
 ![Earl Grey color palette](./reference/earl-grey-palette.png)
 
 
