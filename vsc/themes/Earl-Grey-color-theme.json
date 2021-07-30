@@ -433,7 +433,7 @@
                         "name": "Punctuation",
                         "scope": "punctuation",
                         "settings": {
-                                "foreground": "#605A52"
+                                "foreground": "#7F7A73"
                         }
                 },
                 {
@@ -714,6 +714,36 @@
                         "scope": ["constant.keyword.clojure"],
                         "settings": {
                                 "foreground": "#556995"
+                        }
+                },
+                // Java
+                {
+                        "name": "Java: import",
+                        "scope": ["storage.modifier.import.java"],
+                        "settings": {
+                                "foreground": "#605A52"
+                        }
+                },
+                {
+                        "name": "Java: type",
+                        "scope": ["storage.type.java"],
+                        "settings": {
+                                "foreground": "#605A52",
+                                "fontStyle": "italic"
+                        }
+                },
+                {
+                        "name": "Java: this",
+                        "scope": ["variable.language.this.java"],
+                        "settings": {
+                                "foreground": "#83577D"
+                        }
+                },
+                {
+                        "name": "Java: property access",
+                        "scope": ["variable.other.object.property.java"],
+                        "settings": {
+                                "foreground": "#605A52"
                         }
                 }
         ]

@@ -434,7 +434,7 @@
 			"name": "Punctuation",
 			"scope": "punctuation",
 			"settings": {
-				"foreground": "◊(eg-color 'fg)"
+				"foreground": "◊(eg-color 'grey8)"
 			}
 		},
 		{
@@ -716,6 +716,36 @@
 			"settings": {
 				"foreground": "◊(eg-color 'blue)"
 			}
-		}
+		},
+                // Java
+                {
+                        "name": "Java: import",
+                        "scope": ["storage.modifier.import.java"],
+                        "settings": {
+                                "foreground": "◊(eg-color 'fg)"
+                        }
+                },
+                {
+                        "name": "Java: type",
+                        "scope": ["storage.type.java"],
+                        "settings": {
+                                "foreground": "◊(eg-color 'fg)",
+				"fontStyle": "italic"
+                        }
+                },
+                {
+                        "name": "Java: this",
+                        "scope": ["variable.language.this.java"],
+                        "settings": {
+                                "foreground": "◊(eg-color 'purple)"
+                        }
+                },
+                {
+                        "name": "Java: property access",
+                        "scope": ["variable.other.object.property.java"],
+                        "settings": {
+                                "foreground": "◊(eg-color 'fg)"
+                        }
+                }
 	]
 }
