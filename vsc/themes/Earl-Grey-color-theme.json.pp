@@ -708,6 +708,14 @@
 			"settings": {
 				"foreground": "◊(eg-color 'teal)"
 			}
+		},
+		// Clojure
+		{
+			"name": "Clojure: keyword",
+			"scope": ["constant.keyword.clojure"],
+			"settings": {
+				"foreground": "◊(eg-color 'blue)"
+			}
 		}
 	]
 }

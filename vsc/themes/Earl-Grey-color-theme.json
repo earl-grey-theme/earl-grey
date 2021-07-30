@@ -707,6 +707,14 @@
                         "settings": {
                                 "foreground": "#477A7B"
                         }
+                },
+                // Clojure
+                {
+                        "name": "Clojure: keyword",
+                        "scope": ["constant.keyword.clojure"],
+                        "settings": {
+                                "foreground": "#556995"
+                        }
                 }
         ]
 }
