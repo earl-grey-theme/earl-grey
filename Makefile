@@ -22,11 +22,11 @@ vsc: vsc/themes/Earl-Grey-color-theme.json
 
 
 ## Kitty
-kitty/earl-grey-theme.conf: kitty/earl-grey-theme.conf.pp
-	cd kitty; raco pollen render earl-grey-theme.conf
+themes/kitty/earl-grey-theme.conf: themes/kitty/earl-grey-theme.conf.pp
+	cd themes/kitty; raco pollen render earl-grey-theme.conf
 
 
-kitty: kitty/earl-grey-theme.conf
+kitty: themes/kitty/earl-grey-theme.conf
 
 
 

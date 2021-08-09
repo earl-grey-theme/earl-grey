@@ -6,3 +6,31 @@ A gentle color scheme for code.
 ![Earl Grey color palette](./eg-colors.png)
 
 
+## Implementations
+
+- ...
+
+
+## Development
+
+This project uses [racket](https://racket-lang.org/) and [pollen](https://docs.racket-lang.org/pollen/) to build the various implementations,
+and the website.
+
+### Setup
+
+Install the core `earl-grey` package (this repo):
+
+``` sh
+raco pkg install
+```
+
+
+## License
+
+
+## Support the project
+
+
+## Credits
+
+

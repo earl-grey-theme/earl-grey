@@ -4,6 +4,8 @@
 tmp/
 
 compiled/
+**/compiled
+doc
 
 # Web
 web/src/**/*.html
@@ -14,6 +16,3 @@ web/src/static/styles/*.css
 web/vars
 web/out/
 
-# VSC
-vsc/themes/compiled/
-vsc/themes/**/compiled/

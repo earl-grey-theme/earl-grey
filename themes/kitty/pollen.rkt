@@ -9,7 +9,7 @@
          pollen/core
          pollen/pagetree
          racket/date
-         "../earl-grey.rkt")
+         earl-grey)
 
 (provide (all-defined-out)
          eg-color)
