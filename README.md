@@ -18,10 +18,16 @@ and the website.
 
 ### Setup
 
+Install dependencies:
+
+``` sh
+make install-deps
+```
+
 Install the core `earl-grey` package (this repo):
 
 ``` sh
-raco pkg install
+make install
 ```
 
 
