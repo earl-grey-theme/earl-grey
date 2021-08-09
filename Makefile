@@ -4,6 +4,10 @@
 # @file
 # @version 0.1
 
+install:
+	raco pkg install
+
+
 install-deps:
 	raco pkg install --auto pollen
 
@@ -12,13 +16,6 @@ install-deps:
 run-web:
 	cd web; ./make.sh run
 
-
-## Visual Studio Code
-vsc/themes/Earl-Grey-color-theme.json:  vsc/themes/Earl-Grey-color-theme.json.pp
-	cd vsc; raco pollen render themes/Earl-Grey-color-theme.json
-
-
-vsc: vsc/themes/Earl-Grey-color-theme.json
 
 
 ## Kitty
@@ -30,6 +27,6 @@ kitty: themes/kitty/earl-grey-theme.conf
 
 
 
-.PHONY: run-web vsc install-deps kitty
+.PHONY: run-web install-deps kitty
 
 # end
