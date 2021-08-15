@@ -41,4 +41,6 @@ TODO
 
 ## Credits
 
-
+Earl Grey is developed by [June Kelly](https://halt.wtf), with inspiration from
+[Flatwhite Syntax](https://github.com/biletskyy/flatwhite-syntax), by
+[Dmitry Biletskyy](https://github.com/biletskyy).
