@@ -8,7 +8,8 @@ A gentle color scheme for code.
 
 ## Implementations
 
-- ...
+- Visual Studio Code: https://github.com/earl-grey-theme/earl-grey-vsc
+- Doom Emacs (work in progress): https://github.com/JuneKelly/emacs-doom-themes
 
 
 ## Development
