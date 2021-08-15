@@ -7,6 +7,10 @@ function __main__ () {
         source ./vars
     fi
     case "$1" in
+        'install-deps')
+            sudo apt install racket
+            raco pkg install --auto pollen
+            ;;
         'init')
             if ! [[ -f "./vars" ]]; then
                 echo "Creating vars file"
