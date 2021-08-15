@@ -14,5 +14,6 @@ web/src/compiled/
 web/src/**/compiled/
 web/src/static/styles/*.css
 web/vars
-web/out/
+web/out
+web/output
 

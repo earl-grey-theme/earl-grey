@@ -17,6 +17,11 @@ function __main__ () {
             raco pollen reset ./src && raco pollen start --local ./src
             ;;
 
+        'compile')
+            raco pollen reset ./src \
+                && raco pollen render ./src \
+                && raco pollen publish ./src ./output
+            ;;
         *)
             echo "no"
             exit 1
