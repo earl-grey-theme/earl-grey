@@ -8,7 +8,7 @@ function __main__ () {
     fi
     case "$1" in
         'install-deps')
-            sudo apt install racket
+            apt install racket
             raco pkg install --auto pollen
             ;;
         'init')
