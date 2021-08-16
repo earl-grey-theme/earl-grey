@@ -24,7 +24,13 @@ function __main__ () {
         'compile')
             raco pollen reset ./src \
                 && raco pollen render ./src \
-                && raco pollen publish ./src ./output/docs
+                && rsync -av --exclude='*.pm' \
+                             --exclude='*.ptree' \
+                             --exclude='*.p' \
+                             --exclude='*.pp' \
+                             --exclude='*.rkt' \
+                             --exclude='**/compiled' \
+                   ./src/ ./output/docs
             ;;
         *)
             echo "no"
