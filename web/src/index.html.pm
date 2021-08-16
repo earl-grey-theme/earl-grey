@@ -85,8 +85,19 @@
 
 ◊section{
   ◊h2[#:id "license"]{License}
-  TODO ...
 
+  The color scheme, core tools, and main implementations are licensed under the
+  ◊hyperlink[
+    "https://github.com/earl-grey-theme/earl-grey/blob/main/LICENSE-PARITY.md"
+  ]{Parity License}, and
+  ◊hyperlink[
+    "https://github.com/earl-grey-theme/earl-grey/blob/main/LICENSE-PARITY.md"
+  ]{Apache 2.0} (for third-party contributions).
+
+  It is possible to obtain a "Patron License", granting permission for commercial
+  use (See the ◊hyperlink["#sponsor"]{Sponsor the Project} section).
+
+  It is also possible to obtain other licenses, just open an issue, or get in touch.
 }
 
 ◊section{
