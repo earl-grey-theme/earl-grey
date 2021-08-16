@@ -36,12 +36,16 @@ make install
 
 ## License
 
-TODO
+
+[Parity License](./LICENSE-PARITY.md), and [Apache 2.0](./LICENSE-APACHE.txt) (contributions).
+
 
 
 ## Support the project
 
-TODO
+Support the project on [Patreon](https://www.patreon.com/junek). Support at the 
+"Patron" tier grants permission to ignore any noncommercial or copyleft rules of the 
+projects free public license. See the Patron License in [PATRONAGE.md](./PATRONAGE.md).
 
 
 ## Credits
