@@ -90,7 +90,7 @@
 ◊section{
   ◊h2[#:id "credits"]{Credits}
 
-  Earl Grey was developed by ◊hyperlink["https://june.halt.wtf"]{June Kelly},
+  Earl Grey was developed by ◊hyperlink["https://halt.wtf"]{June Kelly},
   with inspiration from
   ◊hyperlink["https://github.com/biletskyy/flatwhite-syntax"]{Flatwhite Syntax}
   by ◊hyperlink["https://github.com/biletskyy"]{Dmitry Biletskyy}.
@@ -103,6 +103,7 @@
 
 ◊section{
   ◊h2[#:id "links"]{Links}
-  ...
-
+  ◊ul{
+    ◊hyperlink["https://github.com/earl-grey-theme/earl-grey"]{Github}
+  }
 }
