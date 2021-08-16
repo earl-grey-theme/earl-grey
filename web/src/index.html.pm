@@ -68,23 +68,25 @@
 
 ◊section{
   ◊h2[#:id "get"]{Get Earl Grey}
-  ...
-
+  ◊ul{
+    ◊li{
+      ◊hyperlink["https://github.com/earl-grey-theme/earl-grey"]{Github}
+    }
+  }
 }
 
 
 ◊section{
   ◊h2[#:id "sponsor"]{Sponsor the Project}
-  ...
+  TODO ...
 
 }
 
 
 ◊section{
   ◊h2[#:id "license"]{License}
-  ...
+  TODO ...
 
-  TODO.
 }
 
 ◊section{
