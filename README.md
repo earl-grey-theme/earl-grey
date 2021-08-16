@@ -40,6 +40,10 @@ make install
 [Parity License](./LICENSE-PARITY.md), and [Apache 2.0](./LICENSE-APACHE.txt) (contributions).
 
 
+## Contributing
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md)
+
 
 ## Support the project
 
