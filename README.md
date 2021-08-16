@@ -33,16 +33,17 @@ Install the core `earl-grey` package (this repo):
 make install
 ```
 
-
-## License
-
-
-[Parity License](./LICENSE-PARITY.md), and [Apache 2.0](./LICENSE-APACHE.txt) (contributions).
-
-
 ## Contributing
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md)
+
+
+## License
+
+The color scheme, core tools, and main implementations are licensed under the [Parity License](./LICENSE-PARITY.md), and [Apache 2.0](./LICENSE-APACHE.txt) 
+(for third-party contributions).
+
+It is possible to obtain a "Patron License", granting permission for commercial use...
 
 
 ## Support the project
