@@ -2,6 +2,8 @@
 
 A gentle color scheme for code.
 
+Website: https://earl-grey.halt.wtf
+
 ![Earl Grey demo with javascript code](./eg-demo.png)
 ![Earl Grey color palette](./eg-colors.png)
 
@@ -38,6 +40,8 @@ TODO
 
 
 ## Support the project
+
+TODO
 
 
 ## Credits
