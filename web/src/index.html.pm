@@ -78,8 +78,8 @@
 
 ◊section{
   ◊h2[#:id "sponsor"]{Sponsor the Project}
-  TODO ...
 
+  Support the project ◊hyperlink["https://www.patreon.com/junek"]{on Patreon}.
 }
 
 
