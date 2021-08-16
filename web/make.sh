@@ -24,7 +24,7 @@ function __main__ () {
         'compile')
             raco pollen reset ./src \
                 && raco pollen render ./src \
-                && raco pollen publish ./src ./output
+                && raco pollen publish ./src ./output/docs
             ;;
         *)
             echo "no"
