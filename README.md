@@ -43,7 +43,7 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md)
 The color scheme, core tools, and main implementations are licensed under the [Parity License](./LICENSE-PARITY.md), and [Apache 2.0](./LICENSE-APACHE.txt) 
 (for third-party contributions).
 
-It is possible to obtain a "Patron License", granting permission for commercial use...
+It is possible to obtain a "Patron License", granting permission for commercial use (See the "Support the project" section). It is also possible to obtain other licenses, just open an issue, or get in touch.
 
 
 ## Support the project
