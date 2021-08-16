@@ -104,6 +104,8 @@
 ◊section{
   ◊h2[#:id "links"]{Links}
   ◊ul{
-    ◊hyperlink["https://github.com/earl-grey-theme/earl-grey"]{Github}
+    ◊li{
+      ◊hyperlink["https://github.com/earl-grey-theme/earl-grey"]{Github}
+    }
   }
 }
