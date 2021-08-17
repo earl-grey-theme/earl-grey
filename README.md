@@ -45,6 +45,9 @@ The color scheme, core tools, and main implementations are licensed under the [P
 
 It is possible to obtain a "Patron License", granting permission for commercial use (See the "Support the project" section). It is also possible to obtain other licenses, just open an issue, or get in touch.
 
+In short, this project is free-software for non-commercial purposes, and a
+commercial license can easily be obtained.
+
 
 ## Support the project
 
