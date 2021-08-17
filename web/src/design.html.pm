@@ -62,10 +62,10 @@
 
 
 ◊section{
-  ◊h2{Use italics to emphasise important elements}
+  ◊h2{Use italics for computation}
 
-  Many important syntax elements (such as function and class names, and
-  dictionary keys) should be styled with ◊eg/italics{italics},
+  Names of computational units, such as classes, methods, and functions,
+  should be styled with ◊eg/italics{italics},
   rather than a particular color.
 
   In rare cases, italics can be combined with a color.
@@ -75,14 +75,12 @@
   ◊pre{
     ◊eg/purple{class} ◊eg/italic{Person} {
       ◊eg/italic{constructor(name)} {
+        ◊eg/purple{const} ◊eg/blue{upperCase} = name.◊eg/italic{toUpperCase}()
         ...
       }
     }
 
-    Account.◊eg/italic{create}({
-      ◊eg/italic{username:} ◊eg/green{"Alice"},
-      ◊eg/italic{admin:} ◊eg/teal{true}
-    })
+    ◊eg/purple{const} ◊eg/blue{person} = ◊eg/purple{new} ◊eg/italic{Person}(◊eg/green{"Alice"})
   }
 }
 
