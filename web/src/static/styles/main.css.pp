@@ -7,7 +7,7 @@ html {
     line-height: 1.4rem;
     font-family: "Crimson Pro", Georgia, serif;
     background-color: ◊(eg-color "bg");
-    color: ◊(eg-color "fg");
+    color: ◊(eg-color "fg2");
 }
 
 body {
