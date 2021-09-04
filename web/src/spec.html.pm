@@ -40,6 +40,11 @@
   ◊div[#:class "syntax-spec"]{Red: ◊color-lozenge['red]}
   ◊div[#:class "syntax-spec"]{Comment: ◊color-lozenge['grey5]}
 
+  An alterative, slightly darker foreground color is available for use
+  when more contrast is needed:
+
+  ◊div[#:class "syntax-spec"]{ForegroundAlt: ◊color-lozenge['fg2]}
+
 
   ◊h3{Blend Colors}
   ◊div[#:class "syntax-spec"]{Grey1: ◊color-lozenge[#:foreground 'fg 'grey1]}
