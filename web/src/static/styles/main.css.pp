@@ -75,7 +75,7 @@ a:hover {
     background-color: ◊(eg-color "purple1");
 }
 a.simple {
-    color: ◊(eg-color "fg");
+    color: ◊(eg-color "fg2");
     text-decoration: none;
 }
 
@@ -116,7 +116,7 @@ hr.asterism {
 }
 hr.asterism::before {
     content: "⁂";
-    color: ◊(eg-color "fg");
+    color: ◊(eg-color "fg2");
     font-size: 1rem;
     letter-spacing: 0px;
     margin: 0;
@@ -172,6 +172,7 @@ img {
 pre, code {
     font-family: "Recursive Mono SemiCasual";
     font-size: 0.82rem;
+    color: ◊(eg-color "fg");
 }
 
 /* Spec */
