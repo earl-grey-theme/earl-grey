@@ -108,7 +108,7 @@
          ,@elements))
 
 (define (eg/grey . elements)
-  `(span [[style ,(string-append "color: " (eg-color 'grey5))]]
+  `(span [[style ,(string-append "color: " (eg-color 'grey6))]]
          ,@elements))
 
 (define (eg/italic . elements)
