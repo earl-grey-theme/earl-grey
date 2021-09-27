@@ -47,11 +47,13 @@
          #:foreground [foreground 'bg])
   `(div [[class "color-block" ]
          [style ,(string-append
-                  "color: "(eg-color foreground)
+                  "color: " (eg-color foreground)
                   "; background-color: " (eg-color code))]]
         (span [] ,name ": ")
         (br)
-        (code [] ,(eg-color code))))
+        (code [(style ,(string-append
+                        "color: " (eg-color foreground)))]
+              ,(eg-color code))))
 
 (define (list-page-links pages)
   (define (make-li post)
