@@ -1,0 +1,64 @@
+#! /usr/bin/env bash
+
+set -euo pipefail
+
+function install () {
+    raco pkg install
+}
+
+function install-deps () {
+    raco pks install --auto pollen
+}
+
+function web () {
+    (
+        function install-deps () {
+            apt install racket
+            raco pkg install --auto pollen
+        }
+
+        function reset () {
+            raco pollen reset ./src
+        }
+
+        function serve () {
+            reset
+            raco pollen start --local ./src
+        }
+
+        function render (){
+            raco pollen render ./src
+        }
+
+        function compile () {
+            reset
+            render
+            rsync -av --exclude='*.pm' \
+                --exclude='*.ptree' \
+                --exclude='*.p' \
+                --exclude='*.pp' \
+                --exclude='*.rkt' \
+                --exclude='**/compiled' \
+                ./src/ ./output/docs
+        }
+
+        cd web
+
+        if [[ -f "./vars" ]]; then
+            echo "loading vars"
+            source ./vars
+        fi
+
+        "$@"
+    )
+}
+
+function help () {
+    echo "Usage: $0 <task> <args>"
+}
+
+function default () {
+    help
+}
+
+"${@:-default}"
