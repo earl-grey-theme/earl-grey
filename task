@@ -55,6 +55,8 @@ function web () {
 
 function help () {
     echo "Usage: $0 <task> <args>"
+    echo 'Tasks:'
+    compgen -A function | cat -n
 }
 
 function default () {
