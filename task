@@ -63,4 +63,5 @@ function default () {
     help
 }
 
-"${@:-default}"
+TIMEFORMAT="Task completed in %3lR"
+time ${@:-default}
