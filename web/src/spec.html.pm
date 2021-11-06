@@ -29,6 +29,7 @@
 
 
   ◊h3{Color Palette}
+
   ◊div[#:class "syntax-spec"]{Foreground: ◊color-lozenge['fg]}
   ◊div[#:class "syntax-spec"]{Background: ◊color-lozenge['bg]}
   ◊div[#:class "syntax-spec"]{BackgroundAlt: ◊color-lozenge['bg2]}
@@ -38,15 +39,20 @@
   ◊div[#:class "syntax-spec"]{Orange: ◊color-lozenge['orange]}
   ◊div[#:class "syntax-spec"]{Green: ◊color-lozenge['green]}
   ◊div[#:class "syntax-spec"]{Red: ◊color-lozenge['red]}
-  ◊div[#:class "syntax-spec"]{Comment: ◊color-lozenge['grey5]}
+  ◊div[#:class "syntax-spec"]{Comment: ◊color-lozenge['grey6]}
 
   An alterative, slightly darker foreground color is available for use
   when more contrast is needed:
 
   ◊div[#:class "syntax-spec"]{ForegroundAlt: ◊color-lozenge['fg2]}
 
+  The "Berry" color and its shades can be used when a more vibrant color is required
+  for UI elements (example: highlighting search results in text).
+
+  ◊div[#:class "syntax-spec"]{Berry: ◊color-lozenge['berry]}
 
   ◊h3{Blend Colors}
+
   ◊div[#:class "syntax-spec"]{Grey1: ◊color-lozenge[#:foreground 'fg 'grey1]}
   ◊div[#:class "syntax-spec"]{Grey2: ◊color-lozenge[#:foreground 'fg 'grey2]}
   ◊div[#:class "syntax-spec"]{Grey3: ◊color-lozenge[#:foreground 'fg 'grey3]}
@@ -116,6 +122,16 @@
   ◊div[#:class "syntax-spec"]{Red7: ◊color-lozenge['red7]}
   ◊div[#:class "syntax-spec"]{Red8: ◊color-lozenge['red8]}
   ◊div[#:class "syntax-spec"]{Red9: ◊color-lozenge['red9]}
+
+  ◊div[#:class "syntax-spec"]{Berry1: ◊color-lozenge[#:foreground 'fg 'berry1]}
+  ◊div[#:class "syntax-spec"]{Berry2: ◊color-lozenge[#:foreground 'fg 'berry2]}
+  ◊div[#:class "syntax-spec"]{Berry3: ◊color-lozenge[#:foreground 'fg 'berry3]}
+  ◊div[#:class "syntax-spec"]{Berry4: ◊color-lozenge['berry4]}
+  ◊div[#:class "syntax-spec"]{Berry5: ◊color-lozenge['berry5]}
+  ◊div[#:class "syntax-spec"]{Berry6: ◊color-lozenge['berry6]}
+  ◊div[#:class "syntax-spec"]{Berry7: ◊color-lozenge['berry7]}
+  ◊div[#:class "syntax-spec"]{Berry8: ◊color-lozenge['berry8]}
+  ◊div[#:class "syntax-spec"]{Berry9: ◊color-lozenge['berry9]}
 }
 
 

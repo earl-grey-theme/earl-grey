@@ -62,6 +62,10 @@
     ◊color-block[
       "Red" 'red
     ]{}
+
+    ◊color-block[
+      "Berry" 'berry
+    ]{}
   }
 }
 

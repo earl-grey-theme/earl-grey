@@ -15,6 +15,7 @@
     (orange . "#886A44")
     (green  . "#747B4D")
     (red    . "#8F5652")
+    (berry  . "#AA5087")
 
     (grey1  . "#ECEBE8")
     (grey2  . "#DDDBD8")
@@ -84,7 +85,17 @@
     (red6 . "#BB9895")
     (red7 . "#B08884")
     (red8 . "#A57773")
-    (red9 . "#9A6763")))
+    (red9 . "#9A6763")
+
+    (berry1  . "#F4EAEE")
+    (berry2  . "#ECD9E2")
+    (berry3  . "#E3C8D7")
+    (berry4  . "#DBB7CB")
+    (berry5  . "#D3A6C0")
+    (berry6  . "#CB94B5")
+    (berry7  . "#C383A9")
+    (berry8  . "#BA729E")
+    (berry9  . "#B26192")))
 
 
 (define (eg-color c)
