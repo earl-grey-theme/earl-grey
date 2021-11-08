@@ -78,7 +78,7 @@ a {
     transition-duration: 0.2s;
 }
 a:hover {
-    background-color: ◊(eg-color "purple1");
+    background-color: ◊(eg-color "berry1");
 }
 a.simple {
     color: ◊(eg-color "fg2");
