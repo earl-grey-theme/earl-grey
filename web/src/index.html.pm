@@ -72,6 +72,9 @@
     ◊li{
       ◊hyperlink["https://github.com/earl-grey-theme/earl-grey"]{Github}
     }
+    ◊li{
+      ◊hyperlink["https://marketplace.visualstudio.com/items?itemName=EarlGrey.earl-grey"]{Visual Studio Code}
+    }
   }
 }
 
