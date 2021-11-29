@@ -10,7 +10,9 @@ Website: https://earl-grey.halt.wtf
 
 ## Implementations
 
-- Visual Studio Code: https://github.com/earl-grey-theme/earl-grey-vsc
+- Visual Studio Code: 
+  - On the marketplace: https://marketplace.visualstudio.com/items?itemName=EarlGrey.earl-grey
+  - On github: https://github.com/earl-grey-theme/earl-grey-vsc
 - Doom Emacs (work in progress): https://github.com/JuneKelly/emacs-doom-themes
 
 
