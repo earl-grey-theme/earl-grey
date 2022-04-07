@@ -73,6 +73,9 @@
       ◊hyperlink["https://github.com/earl-grey-theme/earl-grey"]{Github}
     }
     ◊li{
+      ◊hyperlink["https://github.com/doomemacs/themes"]{Emacs (via doom-themes)}
+    }
+    ◊li{
       ◊hyperlink["https://marketplace.visualstudio.com/items?itemName=EarlGrey.earl-grey"]{Visual Studio Code}
     }
   }
