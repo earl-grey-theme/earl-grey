@@ -68,6 +68,8 @@
 
 ◊section{
   ◊h2[#:id "get"]{Get Earl Grey}
+
+  Official implementations:
   ◊ul{
     ◊li{
       ◊hyperlink["https://github.com/earl-grey-theme/earl-grey"]{Github}
@@ -77,6 +79,15 @@
     }
     ◊li{
       ◊hyperlink["https://marketplace.visualstudio.com/items?itemName=EarlGrey.earl-grey"]{Visual Studio Code}
+    }
+  }
+
+  Community implementations:
+  ◊ul{
+    ◊li{
+      ◊hyperlink["https://github.com/jacksonludwig/vim-earl-grey"]{
+        NeoVim (by Jackson Ludwig)
+      }
     }
   }
 }
